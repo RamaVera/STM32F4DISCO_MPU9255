@@ -1,0 +1,5 @@
+*.o
+*.a
+*.zip
+Targets/
+

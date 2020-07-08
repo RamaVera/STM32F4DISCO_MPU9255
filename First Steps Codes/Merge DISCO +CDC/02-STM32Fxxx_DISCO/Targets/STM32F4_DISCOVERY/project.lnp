@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+".\targets\stm32f4_discovery\startup_stm32f407xx.o"
+".\targets\stm32f4_discovery\stm32f4xx_hal.o"
+".\targets\stm32f4_discovery\stm32f4xx_hal_cortex.o"
+".\targets\stm32f4_discovery\stm32f4xx_hal_dma.o"
+".\targets\stm32f4_discovery\stm32f4xx_hal_dma_ex.o"
+".\targets\stm32f4_discovery\stm32f4xx_hal_gpio.o"
+".\targets\stm32f4_discovery\stm32f4xx_hal_pwr.o"
+".\targets\stm32f4_discovery\stm32f4xx_hal_pwr_ex.o"
+".\targets\stm32f4_discovery\stm32f4xx_hal_rcc.o"
+".\targets\stm32f4_discovery\stm32f4xx_hal_rcc_ex.o"
+".\targets\stm32f4_discovery\stm32f4xx_hal_uart.o"
+".\targets\stm32f4_discovery\stm32f4xx_hal_usart.o"
+".\targets\stm32f4_discovery\tm_stm32_rcc.o"
+".\targets\stm32f4_discovery\tm_stm32_gpio.o"
+".\targets\stm32f4_discovery\tm_stm32_delay.o"
+".\targets\stm32f4_discovery\tm_stm32_disco.o"
+".\targets\stm32f4_discovery\tm_stm32_exti.o"
+".\targets\stm32f4_discovery\main.o"
+".\targets\stm32f4_discovery\stm32fxxx_it.o"
+".\targets\stm32f4_discovery\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter ".\Targets\STM32F4_DISCOVERY\project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\project.map" -o .\Targets\STM32F4_DISCOVERY\project.axf
