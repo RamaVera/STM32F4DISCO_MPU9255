@@ -1821,15 +1821,15 @@ Memory Map of the image
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x08000000   0x00000188   Data   RO            3    RESET               startup_stm32f407xx.o
-    0x08000188   0x08000188   0x00000000   Code   RO         2429  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x08000188   0x08000188   0x00000004   Code   RO         2742    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x0800018c   0x0800018c   0x00000004   Code   RO         2745    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000190   0x08000190   0x00000000   Code   RO         2747    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000190   0x08000190   0x00000000   Code   RO         2749    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x08000190   0x08000190   0x00000008   Code   RO         2750    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000198   0x08000198   0x00000000   Code   RO         2752    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000198   0x08000198   0x00000000   Code   RO         2754    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000198   0x08000198   0x00000004   Code   RO         2743    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000188   0x08000188   0x00000000   Code   RO         2650  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000188   0x08000188   0x00000004   Code   RO         2963    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x0800018c   0x0800018c   0x00000004   Code   RO         2966    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000190   0x08000190   0x00000000   Code   RO         2968    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000190   0x08000190   0x00000000   Code   RO         2970    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000190   0x08000190   0x00000008   Code   RO         2971    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000198   0x08000198   0x00000000   Code   RO         2973    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000198   0x08000198   0x00000000   Code   RO         2975    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000198   0x08000198   0x00000004   Code   RO         2964    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x0800019c   0x0800019c   0x00000024   Code   RO            4    .text               startup_stm32f407xx.o
     0x080001c0   0x080001c0   0x000001c4   Code   RO           13    .text               stm32f4xx_hal.o
     0x08000384   0x08000384   0x00000384   Code   RO          359    .text               stm32f4xx_hal_cortex.o
@@ -1840,62 +1840,62 @@ Memory Map of the image
     0x08004ad8   0x08004ad8   0x00000ce0   Code   RO         1174    .text               stm32f4xx_hal_pcd.o
     0x080057b8   0x080057b8   0x0000005c   Code   RO         1198    .text               stm32f4xx_hal_pcd_ex.o
     0x08005814   0x08005814   0x00000990   Code   RO         1288    .text               stm32f4xx_hal_rcc.o
-    0x080061a4   0x080061a4   0x000015da   Code   RO         1738    .text               stm32f4xx_ll_usb.o
+    0x080061a4   0x080061a4   0x000015da   Code   RO         1959    .text               stm32f4xx_ll_usb.o
     0x0800777e   0x0800777e   0x00000002   PAD
-    0x08007780   0x08007780   0x000000b4   Code   RO         1787    .text               tm_stm32_rcc.o
-    0x08007834   0x08007834   0x00000300   Code   RO         1823    .text               tm_stm32_gpio.o
-    0x08007b34   0x08007b34   0x00000274   Code   RO         1849    .text               tm_stm32_delay.o
-    0x08007da8   0x08007da8   0x00000098   Code   RO         1886    .text               tm_stm32_disco.o
-    0x08007e40   0x08007e40   0x00000424   Code   RO         1915    .text               tm_stm32_exti.o
-    0x08008264   0x08008264   0x00000128   Code   RO         1945    .text               tm_stm32_usb.o
-    0x0800838c   0x0800838c   0x00000078   Code   RO         1995    .text               tm_stm32_usb_device.o
-    0x08008404   0x08008404   0x00000374   Code   RO         2026    .text               tm_stm32_mpu9250.o
-    0x08008778   0x08008778   0x0000044c   Code   RO         2060    .text               tm_stm32_usb_device_cdc.o
-    0x08008bc4   0x08008bc4   0x000003fc   Code   RO         2107    .text               tm_stm32_buffer.o
-    0x08008fc0   0x08008fc0   0x00000560   Code   RO         2134    .text               tm_stm32_i2c.o
-    0x08009520   0x08009520   0x000003b4   Code   RO         2160    .text               main.o
-    0x080098d4   0x080098d4   0x00000022   Code   RO         2188    .text               stm32fxxx_it.o
+    0x08007780   0x08007780   0x000000b4   Code   RO         2008    .text               tm_stm32_rcc.o
+    0x08007834   0x08007834   0x00000300   Code   RO         2044    .text               tm_stm32_gpio.o
+    0x08007b34   0x08007b34   0x00000274   Code   RO         2070    .text               tm_stm32_delay.o
+    0x08007da8   0x08007da8   0x00000098   Code   RO         2107    .text               tm_stm32_disco.o
+    0x08007e40   0x08007e40   0x00000424   Code   RO         2136    .text               tm_stm32_exti.o
+    0x08008264   0x08008264   0x00000128   Code   RO         2166    .text               tm_stm32_usb.o
+    0x0800838c   0x0800838c   0x00000078   Code   RO         2216    .text               tm_stm32_usb_device.o
+    0x08008404   0x08008404   0x00000374   Code   RO         2247    .text               tm_stm32_mpu9250.o
+    0x08008778   0x08008778   0x0000044c   Code   RO         2281    .text               tm_stm32_usb_device_cdc.o
+    0x08008bc4   0x08008bc4   0x000003fc   Code   RO         2328    .text               tm_stm32_buffer.o
+    0x08008fc0   0x08008fc0   0x00000560   Code   RO         2355    .text               tm_stm32_i2c.o
+    0x08009520   0x08009520   0x000003b4   Code   RO         2381    .text               main.o
+    0x080098d4   0x080098d4   0x00000022   Code   RO         2409    .text               stm32fxxx_it.o
     0x080098f6   0x080098f6   0x00000002   PAD
-    0x080098f8   0x080098f8   0x00000120   Code   RO         2215    .text               system_stm32f4xx.o
-    0x08009a18   0x08009a18   0x00000374   Code   RO         2246    .text               usbd_conf.o
-    0x08009d8c   0x08009d8c   0x000003c0   Code   RO         2285    .text               usbd_core.o
-    0x0800a14c   0x0800a14c   0x0000062e   Code   RO         2309    .text               usbd_ctlreq.o
-    0x0800a77a   0x0800a77a   0x000000c0   Code   RO         2337    .text               usbd_ioreq.o
+    0x080098f8   0x080098f8   0x00000120   Code   RO         2436    .text               system_stm32f4xx.o
+    0x08009a18   0x08009a18   0x00000374   Code   RO         2467    .text               usbd_conf.o
+    0x08009d8c   0x08009d8c   0x000003c0   Code   RO         2506    .text               usbd_core.o
+    0x0800a14c   0x0800a14c   0x0000062e   Code   RO         2530    .text               usbd_ctlreq.o
+    0x0800a77a   0x0800a77a   0x000000c0   Code   RO         2558    .text               usbd_ioreq.o
     0x0800a83a   0x0800a83a   0x00000002   PAD
-    0x0800a83c   0x0800a83c   0x000002d0   Code   RO         2361    .text               usbd_cdc.o
-    0x0800ab0c   0x0800ab0c   0x00000138   Code   RO         2394    .text               usbd_cdc_if.o
-    0x0800ac44   0x0800ac44   0x00000024   Code   RO         2432    .text               mc_w.l(memcpya.o)
-    0x0800ac68   0x0800ac68   0x00000024   Code   RO         2434    .text               mc_w.l(memseta.o)
-    0x0800ac8c   0x0800ac8c   0x0000000e   Code   RO         2436    .text               mc_w.l(strlen.o)
-    0x0800ac9a   0x0800ac9a   0x0000014e   Code   RO         2728    .text               mf_w.l(dadd.o)
-    0x0800ade8   0x0800ade8   0x000000e4   Code   RO         2730    .text               mf_w.l(dmul.o)
-    0x0800aecc   0x0800aecc   0x00000022   Code   RO         2734    .text               mf_w.l(dflti.o)
-    0x0800aeee   0x0800aeee   0x0000003e   Code   RO         2736    .text               mf_w.l(dfixi.o)
-    0x0800af2c   0x0800af2c   0x00000026   Code   RO         2738    .text               mf_w.l(f2d.o)
+    0x0800a83c   0x0800a83c   0x000002d0   Code   RO         2582    .text               usbd_cdc.o
+    0x0800ab0c   0x0800ab0c   0x00000138   Code   RO         2615    .text               usbd_cdc_if.o
+    0x0800ac44   0x0800ac44   0x00000024   Code   RO         2653    .text               mc_w.l(memcpya.o)
+    0x0800ac68   0x0800ac68   0x00000024   Code   RO         2655    .text               mc_w.l(memseta.o)
+    0x0800ac8c   0x0800ac8c   0x0000000e   Code   RO         2657    .text               mc_w.l(strlen.o)
+    0x0800ac9a   0x0800ac9a   0x0000014e   Code   RO         2949    .text               mf_w.l(dadd.o)
+    0x0800ade8   0x0800ade8   0x000000e4   Code   RO         2951    .text               mf_w.l(dmul.o)
+    0x0800aecc   0x0800aecc   0x00000022   Code   RO         2955    .text               mf_w.l(dflti.o)
+    0x0800aeee   0x0800aeee   0x0000003e   Code   RO         2957    .text               mf_w.l(dfixi.o)
+    0x0800af2c   0x0800af2c   0x00000026   Code   RO         2959    .text               mf_w.l(f2d.o)
     0x0800af52   0x0800af52   0x00000002   PAD
-    0x0800af54   0x0800af54   0x00000030   Code   RO         2740    .text               mf_w.l(cdcmple.o)
-    0x0800af84   0x0800af84   0x0000001e   Code   RO         2763    .text               mc_w.l(llshl.o)
-    0x0800afa2   0x0800afa2   0x00000020   Code   RO         2765    .text               mc_w.l(llushr.o)
-    0x0800afc2   0x0800afc2   0x00000024   Code   RO         2767    .text               mc_w.l(llsshr.o)
-    0x0800afe6   0x0800afe6   0x00000000   Code   RO         2771    .text               mc_w.l(iusefp.o)
-    0x0800afe6   0x0800afe6   0x000000ba   Code   RO         2772    .text               mf_w.l(depilogue.o)
-    0x0800b0a0   0x0800b0a0   0x00000024   Code   RO         2780    .text               mc_w.l(init.o)
-    0x0800b0c4   0x0800b0c4   0x00000000   Code   RO         2782    .text               mc_w.l(semi.o)
-    0x0800b0c4   0x0800b0c4   0x00000000   Code   RO         2783    .text               mc_w.l(iusesemip.o)
-    0x0800b0c4   0x0800b0c4   0x00000056   Code   RO         2792    .text               mc_w.l(__dczerorl2.o)
+    0x0800af54   0x0800af54   0x00000030   Code   RO         2961    .text               mf_w.l(cdcmple.o)
+    0x0800af84   0x0800af84   0x0000001e   Code   RO         2984    .text               mc_w.l(llshl.o)
+    0x0800afa2   0x0800afa2   0x00000020   Code   RO         2986    .text               mc_w.l(llushr.o)
+    0x0800afc2   0x0800afc2   0x00000024   Code   RO         2988    .text               mc_w.l(llsshr.o)
+    0x0800afe6   0x0800afe6   0x00000000   Code   RO         2992    .text               mc_w.l(iusefp.o)
+    0x0800afe6   0x0800afe6   0x000000ba   Code   RO         2993    .text               mf_w.l(depilogue.o)
+    0x0800b0a0   0x0800b0a0   0x00000024   Code   RO         3001    .text               mc_w.l(init.o)
+    0x0800b0c4   0x0800b0c4   0x00000000   Code   RO         3003    .text               mc_w.l(semi.o)
+    0x0800b0c4   0x0800b0c4   0x00000000   Code   RO         3004    .text               mc_w.l(iusesemip.o)
+    0x0800b0c4   0x0800b0c4   0x00000056   Code   RO         3013    .text               mc_w.l(__dczerorl2.o)
     0x0800b11a   0x0800b11a   0x00000002   PAD
-    0x0800b11c   0x0800b11c   0x00000010   Code   RO         2441    i.__0printf$bare    mc_w.l(printfb.o)
-    0x0800b12c   0x0800b12c   0x0000000e   Code   RO         2786    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x0800b13a   0x0800b13a   0x00000002   Code   RO         2787    i.__scatterload_null  mc_w.l(handlers.o)
-    0x0800b13c   0x0800b13c   0x0000000e   Code   RO         2788    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x0800b14a   0x0800b14a   0x00000022   Code   RO         2448    i._printf_core      mc_w.l(printfb.o)
-    0x0800b16c   0x0800b16c   0x00000012   Code   RO         2756    i.fputc             mc_w.l(fputc.o)
+    0x0800b11c   0x0800b11c   0x00000010   Code   RO         2662    i.__0printf$bare    mc_w.l(printfb.o)
+    0x0800b12c   0x0800b12c   0x0000000e   Code   RO         3007    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x0800b13a   0x0800b13a   0x00000002   Code   RO         3008    i.__scatterload_null  mc_w.l(handlers.o)
+    0x0800b13c   0x0800b13c   0x0000000e   Code   RO         3009    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x0800b14a   0x0800b14a   0x00000022   Code   RO         2669    i._printf_core      mc_w.l(printfb.o)
+    0x0800b16c   0x0800b16c   0x00000012   Code   RO         2977    i.fputc             mc_w.l(fputc.o)
     0x0800b17e   0x0800b17e   0x00000002   PAD
-    0x0800b180   0x0800b180   0x00000050   Code   RO         2700    i.free              mc_w.l(malloc.o)
-    0x0800b1d0   0x0800b1d0   0x0000006c   Code   RO         2701    i.malloc            mc_w.l(malloc.o)
+    0x0800b180   0x0800b180   0x00000050   Code   RO         2921    i.free              mc_w.l(malloc.o)
+    0x0800b1d0   0x0800b1d0   0x0000006c   Code   RO         2922    i.malloc            mc_w.l(malloc.o)
     0x0800b23c   0x0800b23c   0x00000008   Data   RO          562    .constdata          stm32f4xx_hal_dma.o
-    0x0800b244   0x0800b244   0x00000018   Data   RO         2216    .constdata          system_stm32f4xx.o
-    0x0800b25c   0x0800b25c   0x00000020   Data   RO         2784    Region$$Table       anon$$obj.o
+    0x0800b244   0x0800b244   0x00000018   Data   RO         2437    .constdata          system_stm32f4xx.o
+    0x0800b25c   0x0800b25c   0x00000020   Data   RO         3005    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0800b27c, Size: 0x00002cf8, Max: 0x00020000, ABSOLUTE, COMPRESSED[0x000000f0])
@@ -1903,32 +1903,32 @@ Memory Map of the image
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x20000000   COMPRESSED   0x00000004   Data   RW           14    .data               stm32f4xx_hal.o
-    0x20000004   COMPRESSED   0x00000004   Data   RW         1739    .data               stm32f4xx_ll_usb.o
-    0x20000008   COMPRESSED   0x00000008   Data   RW         1851    .data               tm_stm32_delay.o
-    0x20000010   COMPRESSED   0x00000001   Data   RW         1887    .data               tm_stm32_disco.o
+    0x20000004   COMPRESSED   0x00000004   Data   RW         1960    .data               stm32f4xx_ll_usb.o
+    0x20000008   COMPRESSED   0x00000008   Data   RW         2072    .data               tm_stm32_delay.o
+    0x20000010   COMPRESSED   0x00000001   Data   RW         2108    .data               tm_stm32_disco.o
     0x20000011   COMPRESSED   0x00000003   PAD
-    0x20000014   COMPRESSED   0x0000000c   Data   RW         1997    .data               tm_stm32_usb_device.o
-    0x20000020   COMPRESSED   0x0000004e   Data   RW         2062    .data               tm_stm32_usb_device_cdc.o
+    0x20000014   COMPRESSED   0x0000000c   Data   RW         2218    .data               tm_stm32_usb_device.o
+    0x20000020   COMPRESSED   0x0000004e   Data   RW         2283    .data               tm_stm32_usb_device_cdc.o
     0x2000006e   COMPRESSED   0x00000002   PAD
-    0x20000070   COMPRESSED   0x000000fc   Data   RW         2135    .data               tm_stm32_i2c.o
-    0x2000016c   COMPRESSED   0x00000014   Data   RW         2162    .data               main.o
-    0x20000180   COMPRESSED   0x00000004   Data   RW         2217    .data               system_stm32f4xx.o
-    0x20000184   COMPRESSED   0x00000001   Data   RW         2310    .data               usbd_ctlreq.o
+    0x20000070   COMPRESSED   0x000000fc   Data   RW         2356    .data               tm_stm32_i2c.o
+    0x2000016c   COMPRESSED   0x00000014   Data   RW         2383    .data               main.o
+    0x20000180   COMPRESSED   0x00000004   Data   RW         2438    .data               system_stm32f4xx.o
+    0x20000184   COMPRESSED   0x00000001   Data   RW         2531    .data               usbd_ctlreq.o
     0x20000185   COMPRESSED   0x00000003   PAD
-    0x20000188   COMPRESSED   0x00000110   Data   RW         2362    .data               usbd_cdc.o
-    0x20000298   COMPRESSED   0x00000030   Data   RW         2396    .data               usbd_cdc_if.o
-    0x200002c8   COMPRESSED   0x00000004   Data   RW         2758    .data               mc_w.l(stdout.o)
-    0x200002cc   COMPRESSED   0x00000004   Data   RW         2769    .data               mc_w.l(mvars.o)
-    0x200002d0   COMPRESSED   0x00000004   Data   RW         2770    .data               mc_w.l(mvars.o)
-    0x200002d4        -       0x0000001a   Zero   RW         1824    .bss                tm_stm32_gpio.o
+    0x20000188   COMPRESSED   0x00000110   Data   RW         2583    .data               usbd_cdc.o
+    0x20000298   COMPRESSED   0x00000030   Data   RW         2617    .data               usbd_cdc_if.o
+    0x200002c8   COMPRESSED   0x00000004   Data   RW         2979    .data               mc_w.l(stdout.o)
+    0x200002cc   COMPRESSED   0x00000004   Data   RW         2990    .data               mc_w.l(mvars.o)
+    0x200002d0   COMPRESSED   0x00000004   Data   RW         2991    .data               mc_w.l(mvars.o)
+    0x200002d4        -       0x0000001a   Zero   RW         2045    .bss                tm_stm32_gpio.o
     0x200002ee   COMPRESSED   0x00000002   PAD
-    0x200002f0        -       0x00000018   Zero   RW         1850    .bss                tm_stm32_delay.o
-    0x20000308        -       0x00000448   Zero   RW         1996    .bss                tm_stm32_usb_device.o
-    0x20000750        -       0x00000760   Zero   RW         2061    .bss                tm_stm32_usb_device_cdc.o
-    0x20000eb0        -       0x00000066   Zero   RW         2161    .bss                main.o
+    0x200002f0        -       0x00000018   Zero   RW         2071    .bss                tm_stm32_delay.o
+    0x20000308        -       0x00000448   Zero   RW         2217    .bss                tm_stm32_usb_device.o
+    0x20000750        -       0x00000760   Zero   RW         2282    .bss                tm_stm32_usb_device_cdc.o
+    0x20000eb0        -       0x00000066   Zero   RW         2382    .bss                main.o
     0x20000f16   COMPRESSED   0x00000002   PAD
-    0x20000f18        -       0x000007e0   Zero   RW         2247    .bss                usbd_conf.o
-    0x200016f8        -       0x00000200   Zero   RW         2395    .bss                usbd_cdc_if.o
+    0x20000f18        -       0x000007e0   Zero   RW         2468    .bss                usbd_conf.o
+    0x200016f8        -       0x00000200   Zero   RW         2616    .bss                usbd_cdc_if.o
     0x200018f8        -       0x00001000   Zero   RW            2    HEAP                startup_stm32f407xx.o
     0x200028f8        -       0x00000400   Zero   RW            1    STACK               startup_stm32f407xx.o
 

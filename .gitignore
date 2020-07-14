@@ -2,4 +2,5 @@
 *.a
 *.zip
 Targets/
-
+*.html
+*.s
