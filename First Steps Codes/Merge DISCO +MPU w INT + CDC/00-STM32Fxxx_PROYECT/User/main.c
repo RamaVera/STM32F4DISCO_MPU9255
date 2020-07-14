@@ -169,19 +169,15 @@ int main(void)
 void TM_EXTI_Handler(uint16_t GPIO_Pin) {
 	/* Check proper line */
 	//TM_DISCO_LedOn(LED_GREEN); //GreenTestPoint for interrupt
-	counter2++;
-
-	if( counter2 == 100)
-	{
-	TM_DISCO_LedToggle(LED_ORANGE);
-	counter2=0;  
+if (GPIO_Pin == GPIO_Pin_7) 
+{
+		counter2++;
+		if( counter2 == 100)
+		{
+		TM_DISCO_LedToggle(LED_ORANGE);
+		counter2=0;  
+		}
 	}
-		
-//	if (GPIO_Pin == GPIO_Pin_7) {
-//			/* Toggle LEDs if interrupt on button line happens */
-//			TM_DISCO_LedOff(LED_ORANGE);
-
-//		}
 	incomingData = true;
 	TM_MPU9250_DataReady(&MPU9250);
 }
