@@ -3619,7 +3619,7 @@
 
   <Group>
     <GroupName>TM</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -3747,7 +3747,7 @@
       <GroupNumber>6</GroupNumber>
       <FileNumber>151</FileNumber>
       <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\00-STM32_LIBRARIES\tm_stm32_i2c.c</PathWithFileName>
@@ -3783,7 +3783,7 @@
 
   <Group>
     <GroupName>User</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -3895,6 +3895,18 @@
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>163</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\User\main_NotWorkingTMProblem.c</PathWithFileName>
+      <FilenameWithoutPath>main_NotWorkingTMProblem.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
   </Group>
 
   <Group>
@@ -3905,7 +3917,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>8</GroupNumber>
-      <FileNumber>163</FileNumber>
+      <FileNumber>164</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3917,7 +3929,7 @@
     </File>
     <File>
       <GroupNumber>8</GroupNumber>
-      <FileNumber>164</FileNumber>
+      <FileNumber>165</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3929,7 +3941,7 @@
     </File>
     <File>
       <GroupNumber>8</GroupNumber>
-      <FileNumber>165</FileNumber>
+      <FileNumber>166</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3941,7 +3953,7 @@
     </File>
     <File>
       <GroupNumber>8</GroupNumber>
-      <FileNumber>166</FileNumber>
+      <FileNumber>167</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3961,7 +3973,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>9</GroupNumber>
-      <FileNumber>167</FileNumber>
+      <FileNumber>168</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3973,7 +3985,7 @@
     </File>
     <File>
       <GroupNumber>9</GroupNumber>
-      <FileNumber>168</FileNumber>
+      <FileNumber>169</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3987,13 +3999,13 @@
 
   <Group>
     <GroupName>RV</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>169</FileNumber>
+      <FileNumber>170</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4005,13 +4017,37 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>170</FileNumber>
+      <FileNumber>171</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\00-STM32_LIBRARIES_OLD\stm32f4xx_i2c.c</PathWithFileName>
       <FilenameWithoutPath>stm32f4xx_i2c.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>10</GroupNumber>
+      <FileNumber>172</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\rv_stm32_dma.c</PathWithFileName>
+      <FilenameWithoutPath>rv_stm32_dma.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>10</GroupNumber>
+      <FileNumber>173</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\rv_stm32_dma.h</PathWithFileName>
+      <FilenameWithoutPath>rv_stm32_dma.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

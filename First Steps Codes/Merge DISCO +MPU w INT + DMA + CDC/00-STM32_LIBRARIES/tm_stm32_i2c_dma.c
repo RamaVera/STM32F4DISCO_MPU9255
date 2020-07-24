@@ -109,7 +109,7 @@ uint8_t TM_I2C_DMA_Transmit(I2C_TypeDef* I2Cx, uint8_t* TX_Buffer, uint8_t* RX_B
 	
 	/* Set DMA default */
 	DMA_InitStruct.Init.PeriphInc = DMA_PINC_DISABLE;
-	DMA_InitStruct.Init.Mode = DMA_NORMAL;
+	DMA_InitStruct.Init.Mode = DMA_CIRCULAR;
 	DMA_InitStruct.Init.Priority = DMA_PRIORITY_LOW;
 	DMA_InitStruct.Init.FIFOMode = DMA_FIFOMODE_DISABLE;
 	DMA_InitStruct.Init.FIFOThreshold = DMA_FIFO_THRESHOLD_FULL;
