@@ -123,9 +123,9 @@ int main(void) {
                TM_MPU9250_ReadGyro(&MPU9250);
                             
                TM_USART_PutDouble(USART2,MPU9250.Ax, 5);    TM_USART_Putc(USART2 ,',');
-               TM_USART_PutDouble(USART2,MPU9250.Ay, 5);    TM_USART_Putc(USART2 ,',');
-               TM_USART_PutDouble(USART2,MPU9250.Az, 5);    TM_USART_Putc(USART2 ,',');
-               TM_USART_PutDouble(USART2,MPU9250.Gx, 5);    TM_USART_Putc(USART2 ,',');
+              // TM_USART_PutDouble(USART2,MPU9250.Ay, 5);    TM_USART_Putc(USART2 ,',');
+               //TM_USART_PutDouble(USART2,MPU9250.Az, 5);    TM_USART_Putc(USART2 ,',');
+               //TM_USART_PutDouble(USART2,MPU9250.Gx, 5);    TM_USART_Putc(USART2 ,',');
                TM_USART_PutDouble(USART2,MPU9250.Gy, 5);    TM_USART_Putc(USART2 ,',');
                TM_USART_PutDouble(USART2,MPU9250.Gz, 5);    TM_USART_Putc(USART2,'\n');
                Delayms(100);
@@ -174,7 +174,7 @@ void TM_USART_PutLong(USART_TypeDef* USARTx,long x)
     }
     if (x >= 10) 
     {
-        TM_USART_Putc(USARTx,x/10);
+        TM_USART_PutLong(USARTx,x/10);
     }
     TM_USART_Putc(USARTx,x % 10+'0');
 }
