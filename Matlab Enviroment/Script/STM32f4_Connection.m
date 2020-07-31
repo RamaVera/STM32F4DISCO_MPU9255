@@ -54,9 +54,9 @@ end
 counter=0;
 tic 
 while ( ishandle(plotGraphx)  ) %Loop when Plot is Active && ishandle(plotGraphy) && ishandle(plotGraphz)
-   dat = fscanf(s,['%f,%f,%f']) %Read Data from Serial as Float: PLEASE NOTE: Here i modified the code, in order to adjust the correct format of data in input.
-   sum(dat)
-   %%dat = fgets(s)
+   dat = fscanf(s,['%f,%f']); %Read Data from Serial as Float: PLEASE NOTE: Here i modified the code, in order to adjust the correct format of data in input.
+   roll_x=dat(1)
+   pitch_y=dat(2)
    if(~isempty(dat) && isfloat(dat)) %Make sure Data Type is Correct        
        count = count + 1;    
        time(count) = toc;    %Extract Elapsed Time
